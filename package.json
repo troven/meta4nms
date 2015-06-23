@@ -1,0 +1,36 @@
+{
+  "name": "meta4nms",
+  "version": "0.0.1",
+  "description": "meta4nms - infrastructure analytics",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "meta4",
+    "meta4beta"
+  ],
+  "author": "Troven <meta4@troven.com.au> (http://meta4beta.com/)",
+  "licenses": [
+    {
+      "type": "Apache 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/troven/meta4nms.git"
+  },
+  "dependencies": {
+    "node-nms": "~0.0.9",
+    "meta4facts": "~0.0.4",
+    "meta4node": "~0.7.40",
+    "meta4ux": "~0.6.23",
+    "rethinkdb": "^2.0.0-2"
+  },
+  "devDependencies": {},
+  "preferGlobal": true,
+  "bin": {
+    "meta4": "bin/meta4.sh"
+  }
+}
