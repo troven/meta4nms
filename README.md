@@ -1,7 +1,7 @@
 meta4nms
 --------
 
-A modern network monitoring and infrastructure analysis application built using meta4 and RethinkDB.
+A modern network monitoring and infrastructure analysis application built using <a href="https://github.com/troven/node-nms">node-nms</a>, <a href="https://github.com/troven/meta4ux">meta4</a> and <a href="http://rethinkdb.com/">RethinkDB</a>.
 
 1) Install from github
 
